@@ -1,0 +1,70 @@
+{
+  "schema_version": "2.0",
+  "example_kind": "SYNTHETIC_FROZEN_FIXTURE",
+  "route": "static_table_plus_pdf",
+  "snapshots": [
+    {
+      "id": "S1",
+      "representation": "HTML",
+      "fixture_body": "<table><tr><th>Plan</th><th>Price</th></tr><tr><td>Basic</td><td>12 EUR/month</td></tr></table>"
+    },
+    {
+      "id": "S2",
+      "representation": "synthetic PDF text",
+      "fixture_body": "Basic plan: 15 EUR/month; request cap 200/day."
+    }
+  ],
+  "fields": [
+    {
+      "name": "plan",
+      "snapshot_id": "S1",
+      "source_locator": "table row 1 column Plan",
+      "method": "deterministic fixture extraction",
+      "parser_revision": "example-v1",
+      "config_hash": "synthetic-selector-v1",
+      "raw_value": "Basic",
+      "normalized_value": "Basic",
+      "conflicts": [],
+      "state": "OBSERVED"
+    },
+    {
+      "name": "price",
+      "snapshot_id": "S1",
+      "source_locator": "table row 1 column Price",
+      "method": "deterministic fixture extraction",
+      "parser_revision": "example-v1",
+      "config_hash": "synthetic-selector-v1",
+      "raw_value": "12 EUR/month",
+      "normalized_value": {
+        "amount": 12,
+        "currency": "EUR",
+        "period": "month"
+      },
+      "conflicts": [
+        {
+          "snapshot_id": "S2",
+          "value": "15 EUR/month"
+        }
+      ],
+      "state": "CONFLICT_HOLD"
+    },
+    {
+      "name": "availability",
+      "snapshot_id": null,
+      "source_locator": null,
+      "method": null,
+      "parser_revision": null,
+      "config_hash": null,
+      "raw_value": null,
+      "normalized_value": null,
+      "conflicts": [],
+      "state": "UNKNOWN_TRANSPORT_FAILURE"
+    }
+  ],
+  "expected": {
+    "plan": "Basic",
+    "price_promotable": false,
+    "availability": null
+  },
+  "publication": "HOLD_PRICE_CONFLICT"
+}

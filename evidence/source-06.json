@@ -1,0 +1,50 @@
+{
+  "repository": "firecrawl/firecrawl",
+  "supports": "web acquisition and extraction; Crawl or scrape pages into normalized representations through a self-hostable stack.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/firecrawl/firecrawl/41b36dfd28ad69df7da221d1d51f3d5fb4838be3/README.md",
+  "revision": "41b36dfd28ad69df7da221d1d51f3d5fb4838be3",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "174b2fd91f1b7375c1312e7197c5772ccbb1a3a995d454c8b2e7ca85bd83fa25",
+  "body_bytes": 20894,
+  "retrieved_at": "2026-11-21T21:17:24.569201+08:00",
+  "excerpts": [
+    {
+      "line": 132,
+      "text": "Scraping, crawling and mapping run on your machine. By default a single-page scrape that won't load there is fetched by Firecrawl Cloud instead and marked `\"source\": \"firecrawl-cloud\"` in the result. Those Cloud calls work without an account at a limited rate, and `firecrawl-local login` puts them on your Firecrawl account. Set `FIRECRAWL_CLOUD=off` to keep everything on your machine."
+    },
+    {
+      "line": 344,
+      "text": "Pass a schema to get structured data back."
+    },
+    {
+      "line": 431,
+      "text": "[Firecrawl Alexandria](https://alexandria.firecrawl.dev) gives your AI agents 550+ data providers in one library (250M+ people, 75M+ companies, 41M+ research papers), plus specialized indexes and the live web, through one API, MCP or CLI. AI agents discover a tool alongside their web results, inspect its inputs and pricing, then run it to get structured data. Discovery is free, and running a tool uses the credits listed on it."
+    },
+    {
+      "line": 459,
+      "text": "An AI agent can sign up its user and get an API key by fetching the onboarding skill."
+    },
+    {
+      "line": 547,
+      "text": "- [Firecrawl Skills Catalog](https://github.com/firecrawl/skills), installed with `npx skills add firecrawl/skills`"
+    },
+    {
+      "line": 551,
+      "text": "The build skills for integrating Firecrawl into product code live in this repo under [`skills/`](./skills), and CI mirrors them into the catalog. To contribute a skill, send CLI skills (including the research and developer index skills) to [`firecrawl/cli`](https://github.com/firecrawl/cli), build and SDK skills to this repo's `skills/` folder, and workflow skills to [`firecrawl/firecrawl-workflows`](https://github.com/firecrawl/firecrawl-workflows). The catalog at [`firecrawl/skills`](https://github.com/firecrawl/skills) is read-only, so never open a PR against it directly."
+    },
+    {
+      "line": 575,
+      "text": "[Firecrawl Local](#firecrawl-local) is the easiest way to run Firecrawl yourself. If you really want the full Firecrawl server with its own queues, workers and databases, all of it still lives in this repo and you can run it on your own infrastructure. If you'd rather not run anything yourself, [Firecrawl Cloud](#firecrawl-cloud) gives you every feature with no setup."
+    },
+    {
+      "line": 597,
+      "text": "This project is primarily licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). The SDKs and some UI components are licensed under the MIT License. See the LICENSE files in specific directories for details."
+    },
+    {
+      "line": 601,
+      "text": "**It is the sole responsibility of end users to respect websites' policies when scraping.** Users are advised to adhere to applicable privacy policies and terms of use. By default, Firecrawl respects robots.txt directives. By using Firecrawl, you agree to comply with these conditions."
+    }
+  ]
+}

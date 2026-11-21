@@ -1,0 +1,62 @@
+{
+  "repository": "SeleniumHQ/selenium",
+  "supports": "WebDriver automation; Automate browsers through the WebDriver ecosystem.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/SeleniumHQ/selenium/b7fe4adbd02ec62357956f38c5fa97d908b1d79f/README.md",
+  "revision": "b7fe4adbd02ec62357956f38c5fa97d908b1d79f",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "13af5408c19c3aea1391174836e6eca7231deb27aa7ce151d6a44e3799b07fc8",
+  "body_bytes": 18479,
+  "retrieved_at": "2026-11-21T21:17:13.338546+08:00",
+  "excerpts": [
+    {
+      "line": 23,
+      "text": "Selenium is an umbrella project encapsulating a variety of tools and"
+    },
+    {
+      "line": 26,
+      "text": "\u2014 a platform and language-neutral coding interface compatible with all"
+    },
+    {
+      "line": 29,
+      "text": "The project is made possible by volunteer contributors who've"
+    },
+    {
+      "line": 32,
+      "text": "This README is for developers interested in contributing to the project."
+    },
+    {
+      "line": 70,
+      "text": "This article is out of date, but it includes more detailed descriptions and screenshots that some people might find useful."
+    },
+    {
+      "line": 78,
+      "text": "(nothing is installed or set that is already present unless otherwise prompted)"
+    },
+    {
+      "line": 95,
+      "text": "3. Install [MSYS2](https://www.msys2.org/), which is an alternative shell environment that provides Unix-like commands"
+    },
+    {
+      "line": 122,
+      "text": "Rather than creating your own local dev environment, GitPod provides a ready to use environment for you."
+    },
+    {
+      "line": 158,
+      "text": "server) per checkout path. Unlike the caches above, it is **not** removed when you delete a worktree \u2014"
+    },
+    {
+      "line": 168,
+      "text": "`.local/` is gitignored and excluded in `.bazelignore`, so removing the worktree removes its output"
+    },
+    {
+      "line": 178,
+      "text": "Selenium is built using a common build tool called [Bazel](https://bazel.build/), to"
+    },
+    {
+      "line": 192,
+      "text": "Each module that can be built is defined in a `BUILD.bazel` file. To execute the module you refer to it starting with a"
+    }
+  ]
+}

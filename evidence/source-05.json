@@ -1,0 +1,62 @@
+{
+  "repository": "unclecode/crawl4ai",
+  "supports": "AI-oriented web extraction; Produce model-ready web representations and structured extraction.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/unclecode/crawl4ai/67a717723f6413eeb5a5b14569aef8308f888adc/README.md",
+  "revision": "67a717723f6413eeb5a5b14569aef8308f888adc",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "25a90f48a14277bd5d99d409fcc15d6f901292e41ea7be17929960c7545ca06b",
+  "body_bytes": 28524,
+  "retrieved_at": "2026-11-21T21:17:16.729404+08:00",
+  "excerpts": [
+    {
+      "line": 3,
+      "text": "**Crawl4AI Cloud is a hosted web scraping, extraction, and search API for AI agents and data pipelines.** Turn pages into clean Markdown for RAG, extract structured JSON, or search the live web with one API key. Crawl4AI runs the browsers and manages the proxies."
+    },
+    {
+      "line": 9,
+      "text": "This repository is home to the Apache-2.0 crawler that powers Crawl4AI Cloud. [Run it yourself](#run-crawl4ai-yourself) with Python or Docker."
+    },
+    {
+      "line": 14,
+      "text": "<img alt=\"Crawl4AI Cloud is live. 1,000 free credits every month, no card. Get your key.\" src=\"https://raw.githubusercontent.com/unclecode/crawl4ai/main/docs/assets/cloud-launch-banner-light.svg\" width=\"960\">"
+    },
+    {
+      "line": 156,
+      "text": "I made it open source for **availability**, anyone can use it without a gate. Now I\u2019m building the platform for **affordability**, anyone can run serious crawls without breaking the bank. If that resonates, join in, send feedback, or just crawl something amazing."
+    },
+    {
+      "line": 158,
+      "text": "That platform is live now: [Crawl4AI Cloud](https://crawl4ai.com/?ref=readme)."
+    },
+    {
+      "line": 187,
+      "text": "- \ud83d\udd0e **CSS and XPath schemas**: fast extraction with no LLM (`JsonCssExtractionStrategy`, `JsonXPathExtractionStrategy`, `RegexExtractionStrategy`)."
+    },
+    {
+      "line": 188,
+      "text": "- \ud83e\ude84 **Schema generator**: describe what you want once; `generate_schema` writes a reusable schema."
+    },
+    {
+      "line": 189,
+      "text": "- \ud83e\udd16 **LLM extraction**: any LLM provider, open-source or hosted, into a typed JSON schema (`LLMExtractionStrategy`)."
+    },
+    {
+      "line": 234,
+      "text": "\u2601\ufe0f Rather not run a server? The cloud is the same idea, hosted. [Get a key \u2192](https://crawl4ai.com/?ref=readme)"
+    },
+    {
+      "line": 299,
+      "text": "The dashboard is at `http://localhost:11235/dashboard`, the playground at `http://localhost:11235/playground`. LLM keys, MCP and every setting: [Self-hosting guide](https://docs.crawl4ai.com/core/self-hosting/)."
+    },
+    {
+      "line": 445,
+      "text": "This project is licensed under the Apache License 2.0, attribution is recommended via the badges below. See the [Apache 2.0 License](https://github.com/unclecode/crawl4ai/blob/main/LICENSE) file for details."
+    },
+    {
+      "line": 524,
+      "text": "Our mission is to unlock the value of personal and enterprise data by turning digital footprints into structured, useful assets. Crawl4AI gives individuals and organizations open-source tools to extract and structure data, and a fair way to benefit from it. [Full mission statement \u2192](./MISSION.md)"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "microsoft/playwright",
+  "supports": "browser automation; Drive reviewed browser interactions with isolated contexts and observable network/events.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/microsoft/playwright/049226728d2da8054db18b04782a9848b755855e/README.md",
+  "revision": "049226728d2da8054db18b04782a9848b755855e",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "c60fc77edf61e0697cf3d7ed1da748df288941c9f1f66c35459fe053a7bc6bd2",
+  "body_bytes": 11282,
+  "retrieved_at": "2026-11-21T21:17:11.718174+08:00",
+  "excerpts": [
+    {
+      "line": 7,
+      "text": "Playwright is a framework for web automation and testing. It drives Chromium, Firefox, and WebKit with a single API \u2014 in your tests, in your scripts, and as a tool for AI agents."
+    },
+    {
+      "line": 25,
+      "text": "Playwright Test is a full-featured test runner built for end-to-end testing. It runs tests across Chromium, Firefox, and WebKit with full browser isolation, auto-waiting, and web-first assertions."
+    },
+    {
+      "line": 113,
+      "text": "[Playwright CLI](https://github.com/microsoft/playwright-cli) is a command-line interface for browser automation designed for coding agents. It's more token-efficient than MCP \u2014 commands avoid loading large tool schemas and accessibility trees into the model context."
+    },
+    {
+      "line": 121,
+      "text": "Optionally install skills for richer agent integration:"
+    },
+    {
+      "line": 303,
+      "text": "Headless and headed execution on all platforms. <sup>1</sup> Uses [Chrome for Testing](https://developer.chrome.com/blog/chrome-for-testing) by default."
+    },
+    {
+      "line": 307,
+      "text": "Playwright is also available for [Python](https://playwright.dev/python/docs/intro), [.NET](https://playwright.dev/dotnet/docs/intro), and [Java](https://playwright.dev/java/docs/intro)."
+    }
+  ]
+}

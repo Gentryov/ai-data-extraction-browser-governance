@@ -1,0 +1,62 @@
+{
+  "repository": "Unstructured-IO/unstructured",
+  "supports": "document partitioning; Partition files and messages into typed elements for extraction pipelines.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/Unstructured-IO/unstructured/1ab3be89b689fbe91a2152b720908b7edb143945/README.md",
+  "revision": "1ab3be89b689fbe91a2152b720908b7edb143945",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "1bfbe83efecca7e534636346d6f91792df6db63bb4e4f9949e6866d02b6d5db0",
+  "body_bytes": 20063,
+  "retrieved_at": "2026-11-21T21:17:20.742453+08:00",
+  "excerpts": [
+    {
+      "line": 40,
+      "text": "The `unstructured` library provides open-source components for ingesting and pre-processing images and text documents, such as PDFs, HTML, Word docs, and [many more](https://docs.unstructured.io/open-source/core-functionality/partitioning). The use cases of `unstructured` revolve around streamlining and optimizing the data processing workflow for LLMs. `unstructured` modular functions and connectors form a cohesive system that simplifies data ingestion and pre-processing, making it adaptable to different platforms and efficient in transforming unstructured data into structured outputs."
+    },
+    {
+      "line": 45,
+      "text": "> | Model | Table Cell Content | Table Cell Spatial | Adjusted CCT (text accuracy) | Tokens Added (lower is better) |"
+    },
+    {
+      "line": 81,
+      "text": "# this will drop you into a bash shell where the Docker image is running"
+    },
+    {
+      "line": 85,
+      "text": "You can also build your own Docker image. Note that the base image is `wolfi-base`, which is"
+    },
+    {
+      "line": 86,
+      "text": "updated regularly. If you are building the image locally, it is possible `docker-build` could"
+    },
+    {
+      "line": 96,
+      "text": "# this will drop you into a bash shell where the Docker image is running"
+    },
+    {
+      "line": 125,
+      "text": "- `pandoc` is bundled automatically via the `pypandoc-binary` Python package (no system install needed)"
+    },
+    {
+      "line": 175,
+      "text": "* For processing image files, `tesseract` is required. See [here](https://tesseract-ocr.github.io/tessdoc/Installation.html) for installation instructions."
+    },
+    {
+      "line": 176,
+      "text": "* For processing PDF files, `tesseract` and `poppler` are required. The [pdf2image docs](https://pdf2image.readthedocs.io/en/latest/installation.html) have instructions on installing `poppler` across various platforms."
+    },
+    {
+      "line": 184,
+      "text": "`pre-commit` package is installed as part of `make install` mentioned above. Finally, if you decided to use `pre-commit`"
+    },
+    {
+      "line": 212,
+      "text": "The following examples show how to get started with the `unstructured` library. The easiest way to parse a document in unstructured is to use the `partition` function. If you use `partition` function, `unstructured` will detect the file type and route it to the appropriate file-specific partitioning function. If you are using the `partition` function, you may need to install additional dependencies per doc type."
+    },
+    {
+      "line": 242,
+      "text": "LayoutParser also incorporates a community platform for sharing both pre-trained models and full document digitization"
+    }
+  ]
+}

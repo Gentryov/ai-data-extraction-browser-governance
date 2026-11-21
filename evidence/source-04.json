@@ -1,0 +1,22 @@
+{
+  "repository": "scrapy/scrapy",
+  "supports": "HTTP crawler framework; Build deterministic request, parsing, scheduling, and export pipelines.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/scrapy/scrapy/00acf3f31a322871a47aead5fec610d900263103/README.rst",
+  "revision": "00acf3f31a322871a47aead5fec610d900263103",
+  "document": "README.rst",
+  "status": 200,
+  "body_sha256": "fe4a631dfdfa11d6643373f22d25e48ac7c0d43d96187e998597e725ba65c36e",
+  "body_bytes": 1793,
+  "retrieved_at": "2026-11-21T21:17:21.196563+08:00",
+  "excerpts": [
+    {
+      "line": 34,
+      "text": "Scrapy_ is a web scraping framework to extract structured data from websites."
+    },
+    {
+      "line": 35,
+      "text": "It is cross-platform, and requires Python 3.11+. It is maintained by Zyte_"
+    }
+  ]
+}

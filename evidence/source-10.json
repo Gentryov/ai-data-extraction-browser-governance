@@ -1,0 +1,34 @@
+{
+  "repository": "docling-project/docling",
+  "supports": "layout-aware document parsing; Extract structured content from PDF and document layouts.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/docling-project/docling/5182e556308958f3ac4762bb7d03a092c2f339c9/README.md",
+  "revision": "5182e556308958f3ac4762bb7d03a092c2f339c9",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "7640889422b17366a6d4420d2f631575c06facac391e5221fb177291e8665efe",
+  "body_bytes": 8857,
+  "retrieved_at": "2026-11-21T21:16:58.373743+08:00",
+  "excerpts": [
+    {
+      "line": 39,
+      "text": "- \ud83d\udcdc Support for several application-specific XML schemas including [DocLang](https://doclang.ai), [USPTO](https://www.uspto.gov/patents) patents, [JATS](https://jats.nlm.nih.gov/) articles, and [XBRL](https://www.xbrl.org/) financial reports."
+    },
+    {
+      "line": 120,
+      "text": "[integrations](https://docling-project.github.io/docling/integrations/) with popular frameworks"
+    },
+    {
+      "line": 154,
+      "text": "The Docling codebase is under MIT license."
+    },
+    {
+      "line": 155,
+      "text": "For individual model usage, please refer to the model licenses found in the original packages."
+    },
+    {
+      "line": 159,
+      "text": "Docling is hosted as a project in the [LF AI & Data Foundation](https://lfaidata.foundation/projects/)."
+    }
+  ]
+}

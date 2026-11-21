@@ -1,0 +1,50 @@
+{
+  "repository": "n8n-io/n8n",
+  "supports": "workflow orchestrator; Coordinate acquisition, validation, review, and approved export steps.",
+  "limits": "Upstream identity and declared scope only; no local reliability, quality, safety, interoperability, legal, or production validation.",
+  "url": "https://raw.githubusercontent.com/n8n-io/n8n/d7177ef470cccf62ad7b52b288275bd631dfd05f/README.md",
+  "revision": "d7177ef470cccf62ad7b52b288275bd631dfd05f",
+  "document": "README.md",
+  "status": 200,
+  "body_sha256": "2883ac16a971679a2b46fbedd2b8361fc3bde58388ac463a707ff66687a34225",
+  "body_bytes": 3996,
+  "retrieved_at": "2026-11-21T21:17:23.889052+08:00",
+  "excerpts": [
+    {
+      "line": 3,
+      "text": "# n8n \u2013 The Platform for AI Agents and Workflow Automation"
+    },
+    {
+      "line": 5,
+      "text": "Fair-code platform to build and deploy AI agents and workflows. Combine a visual canvas with custom code, run it self-hosted or in the [cloud](https://app.n8n.cloud/login), and connect to 1500+ integrations. AI automation you can trust with real work, from prototype to production."
+    },
+    {
+      "line": 11,
+      "text": "- **AI-Native Automation Platform**: Build and operationalize AI workflows and multi-step agents using your own data, models, and tools"
+    },
+    {
+      "line": 46,
+      "text": "Need help? Our community forum is the place to get support and connect with other users:"
+    },
+    {
+      "line": 51,
+      "text": "n8n is [fair-code](https://faircode.io) distributed under the [Sustainable Use License](https://github.com/n8n-io/n8n/blob/master/LICENSE.md) and [n8n Enterprise License](https://github.com/n8n-io/n8n/blob/master/LICENSE_EE.md)."
+    },
+    {
+      "line": 57,
+      "text": "[Enterprise Licenses](mailto:license@n8n.io) available for additional features and support."
+    },
+    {
+      "line": 59,
+      "text": "Additional information about the license model can be found in the [docs](https://docs.n8n.io/n8n-community-license/)."
+    },
+    {
+      "line": 71,
+      "text": "**Short answer:** It means \"nodemation\" and is pronounced as n-eight-n."
+    },
+    {
+      "line": 73,
+      "text": "**Long answer:** \"I get that question quite often (more often than I expected) so I decided it is probably best to answer it here. While looking for a good name for the project with a free domain I realized very quickly that all the good ones I could think of were already taken. So, in the end, I chose nodemation. 'node-' in the sense that it uses a Node-View and that it uses Node.js and '-mation' for 'automation' which is what the project is supposed to help with. However, I did not like how long the name was and I could not imagine writing something that long every time in the CLI. That is when I then ended up on 'n8n'.\" - **Jan Oberhauser, Founder and CEO, n8n.io**"
+    }
+  ]
+}

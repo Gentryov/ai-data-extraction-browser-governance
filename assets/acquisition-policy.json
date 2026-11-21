@@ -1,0 +1,70 @@
+{
+  "schema_version": "2.0",
+  "publication_authorized": false,
+  "source": {
+    "owner": "<fill>",
+    "base_urls": [],
+    "permitted_paths": [],
+    "prohibited_paths": [],
+    "account_and_route": "<fill>",
+    "robots_and_contract_review": "<fill>",
+    "personal_data_basis": "<fill>"
+  },
+  "execution": {
+    "allowed_domains": [],
+    "allowed_methods": [
+      "GET",
+      "HEAD"
+    ],
+    "max_requests_per_minute": null,
+    "max_concurrency": 1,
+    "credential_scope": "read-only",
+    "download_quarantine": true,
+    "submit_requires_human": true,
+    "stop_conditions": [
+      "captcha",
+      "access denied",
+      "unexpected login",
+      "scope redirect",
+      "rate-limit response"
+    ]
+  },
+  "capture": {
+    "tool_and_version": "<fill>",
+    "config_sha256": "<fill>",
+    "snapshot_sha256": "<fill>",
+    "captured_at": null,
+    "network_log": "<fill>"
+  },
+  "fields": [
+    {
+      "name": "<fill>",
+      "type": "<fill>",
+      "source_locator": "<fill>",
+      "extraction_method": "selector|parser|model",
+      "value": "UNKNOWN",
+      "confidence": "UNKNOWN",
+      "reviewer": "<fill>",
+      "snapshot_id": null,
+      "parser_revision": null,
+      "config_sha256": null,
+      "raw_value": null,
+      "normalized_value": null,
+      "conflicts": [],
+      "state": "UNKNOWN"
+    }
+  ],
+  "validation": {
+    "schema": "<fill>",
+    "frozen_fixture_result": "NOT_RUN",
+    "current_source_result": "NOT_RUN",
+    "drift_result": "UNKNOWN"
+  },
+  "retention": {
+    "raw_until": "<fill>",
+    "derivatives_until": "<fill>",
+    "deletion_owner": "<fill>"
+  },
+  "release_state": "LOCAL_REVIEW_ONLY",
+  "snapshots": []
+}
